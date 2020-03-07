@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		710FA2BB24144BEE00C6E883 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FA2BA24144BEE00C6E883 /* Extensions.swift */; };
 		71F6F12F240E0F8C00C3B65C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F6F12E240E0F8C00C3B65C /* AppDelegate.swift */; };
 		71F6F131240E0F8C00C3B65C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F6F130240E0F8C00C3B65C /* SceneDelegate.swift */; };
 		71F6F136240E0F8C00C3B65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F6F134240E0F8C00C3B65C /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		710FA2BA24144BEE00C6E883 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		71F6F12B240E0F8C00C3B65C /* Coard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F6F12E240E0F8C00C3B65C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F6F130240E0F8C00C3B65C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		71F6F142240E199F00C3B65C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				710FA2BA24144BEE00C6E883 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				71F6F150240E1E8B00C3B65C /* NotificationsController.swift in Sources */,
 				71F6F152240E1E9800C3B65C /* ConversationsController.swift in Sources */,
 				71F6F12F240E0F8C00C3B65C /* AppDelegate.swift in Sources */,
+				710FA2BB24144BEE00C6E883 /* Extensions.swift in Sources */,
 				71F6F14E240E1E7700C3B65C /* ExploreController.swift in Sources */,
 				71F6F131240E0F8C00C3B65C /* SceneDelegate.swift in Sources */,
 				71F6F14A240E1B0B00C3B65C /* MainTabController.swift in Sources */,
