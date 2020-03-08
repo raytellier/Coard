@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		710FA2BB24144BEE00C6E883 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FA2BA24144BEE00C6E883 /* Extensions.swift */; };
+		710FA2BE2415813800C6E883 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FA2BD2415813800C6E883 /* LoginController.swift */; };
+		710FA2C0241581D300C6E883 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FA2BF241581D300C6E883 /* RegistrationController.swift */; };
+		710FA2C224158E5D00C6E883 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FA2C124158E5D00C6E883 /* Utilities.swift */; };
 		71F6F12F240E0F8C00C3B65C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F6F12E240E0F8C00C3B65C /* AppDelegate.swift */; };
 		71F6F131240E0F8C00C3B65C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F6F130240E0F8C00C3B65C /* SceneDelegate.swift */; };
 		71F6F136240E0F8C00C3B65C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F6F134240E0F8C00C3B65C /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		710FA2BA24144BEE00C6E883 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		710FA2BD2415813800C6E883 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		710FA2BF241581D300C6E883 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		710FA2C124158E5D00C6E883 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		71F6F12B240E0F8C00C3B65C /* Coard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F6F12E240E0F8C00C3B65C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F6F130240E0F8C00C3B65C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		710FA2BC2415811F00C6E883 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				710FA2BD2415813800C6E883 /* LoginController.swift */,
+				710FA2BF241581D300C6E883 /* RegistrationController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		71F6F122240E0F8C00C3B65C = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				710FA2BA24144BEE00C6E883 /* Extensions.swift */,
+				710FA2C124158E5D00C6E883 /* Utilities.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -100,6 +116,7 @@
 		71F6F144240E19A300C3B65C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				710FA2BC2415811F00C6E883 /* Authentication */,
 				71F6F149240E1B0B00C3B65C /* MainTabController.swift */,
 				71F6F14B240E1E0D00C3B65C /* FeedController.swift */,
 				71F6F14D240E1E7700C3B65C /* ExploreController.swift */,
@@ -203,11 +220,14 @@
 			files = (
 				71F6F150240E1E8B00C3B65C /* NotificationsController.swift in Sources */,
 				71F6F152240E1E9800C3B65C /* ConversationsController.swift in Sources */,
+				710FA2C224158E5D00C6E883 /* Utilities.swift in Sources */,
 				71F6F12F240E0F8C00C3B65C /* AppDelegate.swift in Sources */,
 				710FA2BB24144BEE00C6E883 /* Extensions.swift in Sources */,
 				71F6F14E240E1E7700C3B65C /* ExploreController.swift in Sources */,
 				71F6F131240E0F8C00C3B65C /* SceneDelegate.swift in Sources */,
 				71F6F14A240E1B0B00C3B65C /* MainTabController.swift in Sources */,
+				710FA2BE2415813800C6E883 /* LoginController.swift in Sources */,
+				710FA2C0241581D300C6E883 /* RegistrationController.swift in Sources */,
 				71F6F14C240E1E0D00C3B65C /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
